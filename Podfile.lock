@@ -1,0 +1,20 @@
+PODS:
+  - FlexLayout (1.3.20)
+  - PinLayout (1.9.2)
+
+DEPENDENCIES:
+  - FlexLayout
+  - PinLayout
+
+SPEC REPOS:
+  trunk:
+    - FlexLayout
+    - PinLayout
+
+SPEC CHECKSUMS:
+  FlexLayout: 025dd153bd5618dcc9f93ef914106d7dc2a86fdc
+  PinLayout: 0d96022e46e8b80468d819f182a393b97ca038da
+
+PODFILE CHECKSUM: df999b82cdbd51c5f2e84436f0f64781b9675b70
+
+COCOAPODS: 1.9.3

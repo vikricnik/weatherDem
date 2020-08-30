@@ -1,0 +1,1187 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0582FCD9080537DF96FB4B34E778E8D3 /* YGStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = F9CF0D29CCE15F85AA66B63E50F8E4A0 /* YGStyle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0889A8ED49A4DFB2239AA13DCBEA6A36 /* TypesImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B255029D3DBE0E05D58D6D6184E69C0 /* TypesImpl.swift */; };
+		137120FEA8AA87DB8AC1C4936C1B419D /* YGMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 516D01DFBC6A223A6B173EE903865042 /* YGMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		137505DE2A18284C3BFED5644132714A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0099C32CD052D2679865CAE3EEEEAB2 /* CoreGraphics.framework */; };
+		16841168CB75562C411DC3D110D4FE21 /* CALayer+PinLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A99D61EAD0650991C85FC24F41D238 /* CALayer+PinLayout.swift */; };
+		17C3C640A143487C78BA74F0ED89DC15 /* FlexLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B0B0F40DF8E1732E2D04A99426606E /* FlexLayout-dummy.m */; };
+		17D13DB592AA81E2D55C270A31827C0D /* Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72AA6F321747D8620EB2DB32B755567 /* Pin.swift */; };
+		1B3B3AAC4BD651AD69629F11EA1BF9D5 /* PinLayoutObjC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB863EBC007E5ECC466AF35E92A42626 /* PinLayoutObjC.swift */; };
+		1B75AF9E3F8AD4D76E2DE5403A08714E /* YGLayout.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A1F153A6F43DC44F652BB5F89D296E1 /* YGLayout.cpp */; settings = {COMPILER_FLAGS = "-fno-omit-frame-pointer -fexceptions -Wall -Werror -std=c++1y -fPIC"; }; };
+		1EABAAC7A61E5039AAC6EF4AF67D5BCE /* Layoutable+PinLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A787340F77B0F6C032825B646F7DF572 /* Layoutable+PinLayout.swift */; };
+		259E775B86F235AB5658DD0ED0C3026A /* YGLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 372FEE12B7BAD0DB70A9D562F86551B4 /* YGLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25B3E6E33BB9C630944F98376D1F8A95 /* FlexLayout+Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4752F7A1361AA0A60853688C72303A /* FlexLayout+Enum.swift */; settings = {COMPILER_FLAGS = "-fno-omit-frame-pointer -fexceptions -Wall -Werror -std=c++1y -fPIC"; }; };
+		2B8585D8550BEDFAB402A1FACFCD1EC4 /* UIView+PinLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F78216DC37A8FE769612A7ED8E23F6F /* UIView+PinLayout.swift */; };
+		2C4A421CCD2AED344F88F63CE00645F5 /* Yoga.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C1C3C844B6A09B5CCEE3632B33DE886 /* Yoga.cpp */; settings = {COMPILER_FLAGS = "-fno-omit-frame-pointer -fexceptions -Wall -Werror -std=c++1y -fPIC"; }; };
+		2C8DB1F94925845E8E98E12D4309A973 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 233AEAA73D843C0E91D6A0EF6C3F0E2F /* Foundation.framework */; };
+		2DBCD2DA628D650C3573E51C0C0E2A24 /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1D0A91CDE009A224D75B6ABF3D87316 /* Utils.cpp */; settings = {COMPILER_FLAGS = "-fno-omit-frame-pointer -fexceptions -Wall -Werror -std=c++1y -fPIC"; }; };
+		335B4F0601EF3117138C2B76D5F0A60A /* UIView+Yoga.mm in Sources */ = {isa = PBXBuildFile; fileRef = B59CA06EB54527B1F00A9EE6B6A08C59 /* UIView+Yoga.mm */; settings = {COMPILER_FLAGS = "-fno-omit-frame-pointer -fexceptions -Wall -Werror -std=c++1y -fPIC"; }; };
+		34F64E8204440A21E673A644E6253D0C /* PinLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94C0D774179E7C7272B0F4BDFB3282E3 /* PinLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F7E69A590D34EAD0350E2A57D113F01 /* PinSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE92B5B5ED4CCE160B42E244EF70340 /* PinSafeArea.swift */; };
+		3F959D0900C98CC943DCB61EAB685B93 /* PEdgeInsets+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19A14A016782DCC8312B56F5216209B /* PEdgeInsets+Operators.swift */; };
+		3FE38BD5F3164A1B919B7C52A19A8FFC /* PinLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1D40FCED52473122B5E0D565E5ACC5 /* PinLayout.swift */; };
+		41BF40BC26C76E2C807900A1C25D70FF /* FlexLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E31206D6C7725B026A07C5ABA43C012C /* FlexLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		462A9A6D0831A96B730AFF0B6A895C9D /* FlexLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 032C6AA62F466A95FFD646A833EAFE61 /* FlexLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4A204EC268ABB45AFCF34DE853845997 /* Percent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DF9B7AAC52479826EA4E0D59379CD4 /* Percent.swift */; };
+		4F636AB19E2909554E9612FE100B71F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 233AEAA73D843C0E91D6A0EF6C3F0E2F /* Foundation.framework */; };
+		51AE7F4F2FCBF80F5457754F81844C6F /* YGNodePrint.h in Headers */ = {isa = PBXBuildFile; fileRef = C9A2453A0719D78E50497DF137733895 /* YGNodePrint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		55CFCA0441ADEC2EFAD362AC904A96F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 233AEAA73D843C0E91D6A0EF6C3F0E2F /* Foundation.framework */; };
+		562A344B8855A53D6E6820F3F4CB68F7 /* Pods-weatherDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8F6CF8C80EE7404CB7E810A6761AB4 /* Pods-weatherDemo-dummy.m */; };
+		5763BDACF6E1CCFB03077FBDD3CCF1D8 /* FlexLayout+Private.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C683D3A16A2F12492FD15EB9D6D079F /* FlexLayout+Private.swift */; settings = {COMPILER_FLAGS = "-fno-omit-frame-pointer -fexceptions -Wall -Werror -std=c++1y -fPIC"; }; };
+		587E4DCD82DB1B1B09C873A093B41B57 /* Pods-weatherDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00BEFE42DA7B9D500C8E0A1A24991B22 /* Pods-weatherDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60137AE5DEC766FFE27647A2A440E968 /* Pods-weatherDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B698AD69C77CBD5296763D3B0BE80654 /* Pods-weatherDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67D91A1F1A9AF5310FC23E1446467A1E /* PinLayoutObjCImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30389B432F2060EBB06F4C336EE505D4 /* PinLayoutObjCImpl.swift */; };
+		682DCFD73C751973E73C47FE3A4C0B0E /* YGLayout+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 69E80F714B007324427578BB15A2EBD6 /* YGLayout+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B35801274F6BF50775AF81DEF161D34 /* PinLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3FD3EAD0C7FF7D861F0B321FF08BBB /* PinLayout-dummy.m */; };
+		6DC4B70BB3587DB7F300994143EA1309 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F590EAB532BDE281D38356C9598B8C8 /* Types.swift */; };
+		72886220A0321430081AE992748F86FC /* Filters.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C290FED383B34365208B55B22C0336 /* Filters.swift */; };
+		792AED9CED00D006A0D9908080AB2F3A /* Yoga.h in Headers */ = {isa = PBXBuildFile; fileRef = 1667F75592F4BF83DF41F998F0E60D1A /* Yoga.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79585F133D5559AA07ACC86738462BF7 /* YGNodePrint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F321B41AD0DDDCD9B879072DA06A7260 /* YGNodePrint.cpp */; settings = {COMPILER_FLAGS = "-fno-omit-frame-pointer -fexceptions -Wall -Werror -std=c++1y -fPIC"; }; };
+		79A08F2672531E50599E526F535BBCB3 /* Types+Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47A3A43EA2D1EE28E7DC44E34266565 /* Types+Description.swift */; };
+		7A274E788413B944DA0FB6973B012EC9 /* PinLayout+WrapContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3466FF34C87FE22067C2016E4865DE /* PinLayout+WrapContent.swift */; };
+		8432EDEEEB5E2824EFB1CAED6C4F43B7 /* UIView+Yoga.h in Headers */ = {isa = PBXBuildFile; fileRef = 35ED47A59D959A30830D6CC0348FF11A /* UIView+Yoga.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8905A126D79F97AEEB5AB24C73E77282 /* YGLayoutExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04A4DEA13A13C1B54EEA3A6AE8CEF33 /* YGLayoutExtensions.swift */; settings = {COMPILER_FLAGS = "-fno-omit-frame-pointer -fexceptions -Wall -Werror -std=c++1y -fPIC"; }; };
+		943DC2D71DBC3C3F7A4DFC81C580EB3F /* Percent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ACA0179ECC07DC42D3B1CA757CC089 /* Percent.swift */; settings = {COMPILER_FLAGS = "-fno-omit-frame-pointer -fexceptions -Wall -Werror -std=c++1y -fPIC"; }; };
+		97E0355E653247E57D75EF25043DC07C /* SizeCalculable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D901662DB4E25D488F8DD6CB644B18C /* SizeCalculable.swift */; };
+		9A4CB88F6F460FA861A78C0556B88D8E /* PinLayout+Between.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C8D6F10E0762E73D1C8537C1C5E907 /* PinLayout+Between.swift */; };
+		9BEA8B0D3DE661379BE3F2B5951CE43E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 233AEAA73D843C0E91D6A0EF6C3F0E2F /* Foundation.framework */; };
+		A814E981192DACC9758D3EBC12E75EA2 /* YGLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 44D7D2F99D20F5C47127E997C3BC6A26 /* YGLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B0CA9DEABE72547BA8527D7BA73F3282 /* PinLayout+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE1454C261888853E9C8D85D675A94F /* PinLayout+Size.swift */; };
+		B0F97DE7AB3B6638A0B1328A7D5E9FFC /* YGLayout.mm in Sources */ = {isa = PBXBuildFile; fileRef = B2BB797EF1EBE4CD94296D7F843E8AFA /* YGLayout.mm */; settings = {COMPILER_FLAGS = "-fno-omit-frame-pointer -fexceptions -Wall -Werror -std=c++1y -fPIC"; }; };
+		BC048396A87D154BD42D2BC349B64967 /* FlexLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBCBBE75B59B6CC2544AE7F058C48F5 /* FlexLayout.swift */; settings = {COMPILER_FLAGS = "-fno-omit-frame-pointer -fexceptions -Wall -Werror -std=c++1y -fPIC"; }; };
+		BE920B67064EA605736A882586DC8D2F /* PinLayout+Layouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A76EDA965B5CD823FA6A9D836CF075 /* PinLayout+Layouting.swift */; };
+		C63057E85A75C5BA21C86CCD16160FB2 /* AutoSizeCalculable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05256E5826E746A6D3B4C8B3F8F5BF97 /* AutoSizeCalculable.swift */; };
+		CDE42E7D5C642AFFFC465BEEB42B643C /* YGEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE3381DF6FDB0D0A81530BEDC9951E5 /* YGEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2C9DC6D43AD8BACD6890D06BD98BE8C /* NSView+PinLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA380718CE4E30D920E58C06E8D16737 /* NSView+PinLayout.swift */; };
+		D41B7201F0569DC979F3A30E4F78BDD0 /* Layoutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D6211631DDB5D2BB8CFC78DF46FE3D /* Layoutable.swift */; };
+		D6D9FD4EC0D5EB5491E3C2983C808998 /* YGNode.h in Headers */ = {isa = PBXBuildFile; fileRef = B53359CA26C114C896DA0817CE38CAC6 /* YGNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E10DE013A0C3F8E694949D4EBA549957 /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = FFA6C37D1B0E120EA4157E253C78C7DF /* Utils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E18F006BDE41BC893BAEDDD086B75B43 /* YGNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 54B2313731B656866AE3F7E7C4989E61 /* YGNode.cpp */; settings = {COMPILER_FLAGS = "-fno-omit-frame-pointer -fexceptions -Wall -Werror -std=c++1y -fPIC"; }; };
+		E4E9180E2601F43CCF1BAD0A385DC7ED /* UIView+FlexLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40D2870F0C5886C53E9F0A8532971C9 /* UIView+FlexLayout.swift */; settings = {COMPILER_FLAGS = "-fno-omit-frame-pointer -fexceptions -Wall -Werror -std=c++1y -fPIC"; }; };
+		E83245BC3B3E167213C2BBDA0D733B46 /* PinLayout+Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF55016888BC05C860FAC9C88972A91 /* PinLayout+Coordinates.swift */; };
+		F03BF6862A1D9727FE380A8E1AB0875D /* Pods-weatherDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C59566F412D256DC721A532579B3EFA /* Pods-weatherDemoTests-dummy.m */; };
+		F14B0789C50C97298E188335E224AE13 /* PinLayout+Warning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA3EF426BCB098C56C6A4FCE29BEB96 /* PinLayout+Warning.swift */; };
+		F2C73BB13803630053D1E2C8947483B1 /* YGStyle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1019E680D9819AC916A9CB99CC882EE9 /* YGStyle.cpp */; settings = {COMPILER_FLAGS = "-fno-omit-frame-pointer -fexceptions -Wall -Werror -std=c++1y -fPIC"; }; };
+		F7DEF0487E07BC5CB98B189A82E216B7 /* PinLayout+Relative.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D9CFA3FCF385E299BE467FD4256745 /* PinLayout+Relative.swift */; };
+		FAD00967F0881C8D605D272B728747E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300D7C9C38226ED88862DA2E4F6D939A /* UIKit.framework */; };
+		FBE710076D8843D7CD63CE6526899FEE /* YGEnums.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90105345931647BB9DC01D78D76F85E4 /* YGEnums.cpp */; settings = {COMPILER_FLAGS = "-fno-omit-frame-pointer -fexceptions -Wall -Werror -std=c++1y -fPIC"; }; };
+		FD12E01F8C10F481C829F3254AC66A42 /* Yoga-internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B7C1C7AD4686A853244652743D5954 /* Yoga-internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FDF1A10DC381B825C02AD22BDB2D6569 /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20B5FD00BD13DE55ACBA92443E9C49A /* Coordinates.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0FDBE6DDB0CA8AB89A8DE57DF29062D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F78D278FB739517AE6B08F96AB75280;
+			remoteInfo = PinLayout;
+		};
+		BE70C14FA8F0B5E54D2C4C0DB2DA7EB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AA61770EFE1F2214AC05B9826901915;
+			remoteInfo = "Pods-weatherDemo";
+		};
+		E1D02BDD21B58FA064163F44F26217CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B669057662AC2963D287EC448129F48;
+			remoteInfo = FlexLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00BEFE42DA7B9D500C8E0A1A24991B22 /* Pods-weatherDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-weatherDemoTests-umbrella.h"; sourceTree = "<group>"; };
+		032C6AA62F466A95FFD646A833EAFE61 /* FlexLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlexLayout.h; path = Sources/SupportingFiles/FlexLayout.h; sourceTree = "<group>"; };
+		03C8D6F10E0762E73D1C8537C1C5E907 /* PinLayout+Between.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PinLayout+Between.swift"; path = "Sources/PinLayout+Between.swift"; sourceTree = "<group>"; };
+		05256E5826E746A6D3B4C8B3F8F5BF97 /* AutoSizeCalculable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoSizeCalculable.swift; path = Sources/AutoSizeCalculable.swift; sourceTree = "<group>"; };
+		09625E9DE53CE5C18DF3AC287FDE74E3 /* Pods-weatherDemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-weatherDemoTests-Info.plist"; sourceTree = "<group>"; };
+		0B1D40FCED52473122B5E0D565E5ACC5 /* PinLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PinLayout.swift; path = Sources/PinLayout.swift; sourceTree = "<group>"; };
+		0B255029D3DBE0E05D58D6D6184E69C0 /* TypesImpl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TypesImpl.swift; path = Sources/Impl/TypesImpl.swift; sourceTree = "<group>"; };
+		0BE3381DF6FDB0D0A81530BEDC9951E5 /* YGEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGEnums.h; path = Sources/yoga/include/yoga/YGEnums.h; sourceTree = "<group>"; };
+		1019E680D9819AC916A9CB99CC882EE9 /* YGStyle.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = YGStyle.cpp; path = Sources/yoga/YGStyle.cpp; sourceTree = "<group>"; };
+		1667F75592F4BF83DF41F998F0E60D1A /* Yoga.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Yoga.h; path = Sources/yoga/include/yoga/Yoga.h; sourceTree = "<group>"; };
+		233AEAA73D843C0E91D6A0EF6C3F0E2F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		25ECE19F77BB264FDF6A0012F8946F86 /* FlexLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FlexLayout.modulemap; sourceTree = "<group>"; };
+		26A76EDA965B5CD823FA6A9D836CF075 /* PinLayout+Layouting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PinLayout+Layouting.swift"; path = "Sources/Impl/PinLayout+Layouting.swift"; sourceTree = "<group>"; };
+		2CE92B5B5ED4CCE160B42E244EF70340 /* PinSafeArea.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PinSafeArea.swift; path = Sources/Impl/PinSafeArea.swift; sourceTree = "<group>"; };
+		2F78216DC37A8FE769612A7ED8E23F6F /* UIView+PinLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+PinLayout.swift"; path = "Sources/Extensions/UIView+PinLayout.swift"; sourceTree = "<group>"; };
+		300D7C9C38226ED88862DA2E4F6D939A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		30389B432F2060EBB06F4C336EE505D4 /* PinLayoutObjCImpl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PinLayoutObjCImpl.swift; path = Sources/ObjectiveC/PinLayoutObjCImpl.swift; sourceTree = "<group>"; };
+		35ED47A59D959A30830D6CC0348FF11A /* UIView+Yoga.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Yoga.h"; path = "Sources/YogaKit/include/YogaKit/UIView+Yoga.h"; sourceTree = "<group>"; };
+		372FEE12B7BAD0DB70A9D562F86551B4 /* YGLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGLayout.h; path = Sources/YogaKit/include/YogaKit/YGLayout.h; sourceTree = "<group>"; };
+		3AA3EF426BCB098C56C6A4FCE29BEB96 /* PinLayout+Warning.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PinLayout+Warning.swift"; path = "Sources/Impl/PinLayout+Warning.swift"; sourceTree = "<group>"; };
+		3C683D3A16A2F12492FD15EB9D6D079F /* FlexLayout+Private.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FlexLayout+Private.swift"; path = "Sources/Swift/Impl/FlexLayout+Private.swift"; sourceTree = "<group>"; };
+		44D7D2F99D20F5C47127E997C3BC6A26 /* YGLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGLayout.h; path = Sources/yoga/YGLayout.h; sourceTree = "<group>"; };
+		46EEB1BE3C7D702EE0BABD9BC8A51E4E /* PinLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PinLayout.release.xcconfig; sourceTree = "<group>"; };
+		474716271610AC757F56C8819945B709 /* PinLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PinLayout-Info.plist"; sourceTree = "<group>"; };
+		49A1B30EADC8BCAF734D81E271752CDD /* PinLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PinLayout.framework; path = PinLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C1C3C844B6A09B5CCEE3632B33DE886 /* Yoga.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = Yoga.cpp; path = Sources/yoga/Yoga.cpp; sourceTree = "<group>"; };
+		4C4752F7A1361AA0A60853688C72303A /* FlexLayout+Enum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FlexLayout+Enum.swift"; path = "Sources/Swift/Impl/FlexLayout+Enum.swift"; sourceTree = "<group>"; };
+		514143E47EC352B2166B269F56F04050 /* Pods-weatherDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-weatherDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		516D01DFBC6A223A6B173EE903865042 /* YGMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGMacros.h; path = Sources/yoga/include/yoga/YGMacros.h; sourceTree = "<group>"; };
+		52590A4D4CB510FD4498987E0617F335 /* Pods-weatherDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-weatherDemo-Info.plist"; sourceTree = "<group>"; };
+		54B2313731B656866AE3F7E7C4989E61 /* YGNode.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = YGNode.cpp; path = Sources/yoga/YGNode.cpp; sourceTree = "<group>"; };
+		57A99D61EAD0650991C85FC24F41D238 /* CALayer+PinLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+PinLayout.swift"; path = "Sources/Extensions/CALayer+PinLayout.swift"; sourceTree = "<group>"; };
+		61DF9B7AAC52479826EA4E0D59379CD4 /* Percent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Percent.swift; path = Sources/Impl/Percent.swift; sourceTree = "<group>"; };
+		62D6552CA3635C1EA4CF4BD82608BDC7 /* FlexLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlexLayout.release.xcconfig; sourceTree = "<group>"; };
+		6487DDE0F679FDBC0CCD6E2E17C5C74C /* Pods_weatherDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_weatherDemoTests.framework; path = "Pods-weatherDemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69E80F714B007324427578BB15A2EBD6 /* YGLayout+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YGLayout+Private.h"; path = "Sources/YogaKit/include/YogaKit/YGLayout+Private.h"; sourceTree = "<group>"; };
+		6C3FD3EAD0C7FF7D861F0B321FF08BBB /* PinLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PinLayout-dummy.m"; sourceTree = "<group>"; };
+		6CBCBBE75B59B6CC2544AE7F058C48F5 /* FlexLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlexLayout.swift; path = Sources/Swift/FlexLayout.swift; sourceTree = "<group>"; };
+		747653A0D591ABB4989861F087469BE6 /* Pods-weatherDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-weatherDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		7D901662DB4E25D488F8DD6CB644B18C /* SizeCalculable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SizeCalculable.swift; path = Sources/SizeCalculable.swift; sourceTree = "<group>"; };
+		7F590EAB532BDE281D38356C9598B8C8 /* Types.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Types.swift; path = Sources/Types.swift; sourceTree = "<group>"; };
+		8226D9B71CEA84E5E9A03D40FE5D9C49 /* Pods_weatherDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_weatherDemo.framework; path = "Pods-weatherDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82B0B0F40DF8E1732E2D04A99426606E /* FlexLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlexLayout-dummy.m"; sourceTree = "<group>"; };
+		8333DDB86BF92B450EE4A248D0BBC166 /* Pods-weatherDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-weatherDemo.release.xcconfig"; sourceTree = "<group>"; };
+		88B7C1C7AD4686A853244652743D5954 /* Yoga-internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Yoga-internal.h"; path = "Sources/yoga/Yoga-internal.h"; sourceTree = "<group>"; };
+		8F3466FF34C87FE22067C2016E4865DE /* PinLayout+WrapContent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PinLayout+WrapContent.swift"; path = "Sources/PinLayout+WrapContent.swift"; sourceTree = "<group>"; };
+		90105345931647BB9DC01D78D76F85E4 /* YGEnums.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = YGEnums.cpp; path = Sources/yoga/YGEnums.cpp; sourceTree = "<group>"; };
+		94C0D774179E7C7272B0F4BDFB3282E3 /* PinLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PinLayout-umbrella.h"; sourceTree = "<group>"; };
+		95F5F418AB066977077FC6DF905D2730 /* PinLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PinLayout.debug.xcconfig; sourceTree = "<group>"; };
+		9A1F153A6F43DC44F652BB5F89D296E1 /* YGLayout.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = YGLayout.cpp; path = Sources/yoga/YGLayout.cpp; sourceTree = "<group>"; };
+		9A748A2416E32C92070A5E49C5808C6B /* Pods-weatherDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-weatherDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		9B384B1EBD7749A9C37E13839DDE1157 /* FlexLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexLayout-prefix.pch"; sourceTree = "<group>"; };
+		9C59566F412D256DC721A532579B3EFA /* Pods-weatherDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-weatherDemoTests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DE1454C261888853E9C8D85D675A94F /* PinLayout+Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PinLayout+Size.swift"; path = "Sources/PinLayout+Size.swift"; sourceTree = "<group>"; };
+		9DF55016888BC05C860FAC9C88972A91 /* PinLayout+Coordinates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PinLayout+Coordinates.swift"; path = "Sources/Impl/PinLayout+Coordinates.swift"; sourceTree = "<group>"; };
+		A0099C32CD052D2679865CAE3EEEEAB2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		A04A4DEA13A13C1B54EEA3A6AE8CEF33 /* YGLayoutExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YGLayoutExtensions.swift; path = Sources/Swift/YGLayoutExtensions.swift; sourceTree = "<group>"; };
+		A787340F77B0F6C032825B646F7DF572 /* Layoutable+PinLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Layoutable+PinLayout.swift"; path = "Sources/Layoutable+PinLayout.swift"; sourceTree = "<group>"; };
+		B2BB797EF1EBE4CD94296D7F843E8AFA /* YGLayout.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = YGLayout.mm; path = Sources/YogaKit/YGLayout.mm; sourceTree = "<group>"; };
+		B2DE431C7E7DD4AD72DD1F7A6F013703 /* PinLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PinLayout-prefix.pch"; sourceTree = "<group>"; };
+		B53359CA26C114C896DA0817CE38CAC6 /* YGNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGNode.h; path = Sources/yoga/YGNode.h; sourceTree = "<group>"; };
+		B59CA06EB54527B1F00A9EE6B6A08C59 /* UIView+Yoga.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "UIView+Yoga.mm"; path = "Sources/YogaKit/UIView+Yoga.mm"; sourceTree = "<group>"; };
+		B698AD69C77CBD5296763D3B0BE80654 /* Pods-weatherDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-weatherDemo-umbrella.h"; sourceTree = "<group>"; };
+		B7D2E613BD5433B2C056978633686CC2 /* Pods-weatherDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-weatherDemo-frameworks.sh"; sourceTree = "<group>"; };
+		BA380718CE4E30D920E58C06E8D16737 /* NSView+PinLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSView+PinLayout.swift"; path = "Sources/Extensions/NSView+PinLayout.swift"; sourceTree = "<group>"; };
+		C20B5FD00BD13DE55ACBA92443E9C49A /* Coordinates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coordinates.swift; path = Sources/Impl/Coordinates.swift; sourceTree = "<group>"; };
+		C47A3A43EA2D1EE28E7DC44E34266565 /* Types+Description.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Types+Description.swift"; path = "Sources/Types+Description.swift"; sourceTree = "<group>"; };
+		C58BF6627C695926C3DE9BDA8EDF9D59 /* Pods-weatherDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-weatherDemoTests.modulemap"; sourceTree = "<group>"; };
+		C6DD6AFADC5B4CD347AA6DA5B3C06676 /* Pods-weatherDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-weatherDemo.modulemap"; sourceTree = "<group>"; };
+		C70DB09B4D313F602DE90399919EEF43 /* Pods-weatherDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-weatherDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C72B5FCB4FAF78A4CFE9E3AAD40B09B8 /* FlexLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FlexLayout.framework; path = FlexLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9A2453A0719D78E50497DF137733895 /* YGNodePrint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGNodePrint.h; path = Sources/yoga/YGNodePrint.h; sourceTree = "<group>"; };
+		CEC39DBBD1AA6EC0CB9CA802477F12C5 /* Pods-weatherDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-weatherDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF24D0B44DC40A99BFDD24D0E8D3055D /* FlexLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FlexLayout-Info.plist"; sourceTree = "<group>"; };
+		D1D0A91CDE009A224D75B6ABF3D87316 /* Utils.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = Utils.cpp; path = Sources/yoga/Utils.cpp; sourceTree = "<group>"; };
+		D5318FEA7851D0664F406194C6B1D228 /* Pods-weatherDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-weatherDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		DE73FD9980526282AC5003EE94FB2EC3 /* PinLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PinLayout.modulemap; sourceTree = "<group>"; };
+		E0D9CFA3FCF385E299BE467FD4256745 /* PinLayout+Relative.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PinLayout+Relative.swift"; path = "Sources/PinLayout+Relative.swift"; sourceTree = "<group>"; };
+		E2C290FED383B34365208B55B22C0336 /* Filters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filters.swift; path = Sources/Filters.swift; sourceTree = "<group>"; };
+		E31206D6C7725B026A07C5ABA43C012C /* FlexLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexLayout-umbrella.h"; sourceTree = "<group>"; };
+		E40D2870F0C5886C53E9F0A8532971C9 /* UIView+FlexLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+FlexLayout.swift"; path = "Sources/Swift/Impl/UIView+FlexLayout.swift"; sourceTree = "<group>"; };
+		E9ACA0179ECC07DC42D3B1CA757CC089 /* Percent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Percent.swift; path = Sources/Swift/Percent.swift; sourceTree = "<group>"; };
+		EB863EBC007E5ECC466AF35E92A42626 /* PinLayoutObjC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PinLayoutObjC.swift; path = Sources/ObjectiveC/PinLayoutObjC.swift; sourceTree = "<group>"; };
+		ED8F6CF8C80EE7404CB7E810A6761AB4 /* Pods-weatherDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-weatherDemo-dummy.m"; sourceTree = "<group>"; };
+		F01D4F84684582766487C185C1A54CE1 /* Pods-weatherDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-weatherDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F0D6211631DDB5D2BB8CFC78DF46FE3D /* Layoutable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Layoutable.swift; path = Sources/Layoutable.swift; sourceTree = "<group>"; };
+		F19A14A016782DCC8312B56F5216209B /* PEdgeInsets+Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PEdgeInsets+Operators.swift"; path = "Sources/Extensions/PEdgeInsets+Operators.swift"; sourceTree = "<group>"; };
+		F321B41AD0DDDCD9B879072DA06A7260 /* YGNodePrint.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = YGNodePrint.cpp; path = Sources/yoga/YGNodePrint.cpp; sourceTree = "<group>"; };
+		F72AA6F321747D8620EB2DB32B755567 /* Pin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pin.swift; path = Sources/Pin.swift; sourceTree = "<group>"; };
+		F8268B7AC36F73E052CF8DBD21F9DB0B /* FlexLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlexLayout.debug.xcconfig; sourceTree = "<group>"; };
+		F9CF0D29CCE15F85AA66B63E50F8E4A0 /* YGStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGStyle.h; path = Sources/yoga/YGStyle.h; sourceTree = "<group>"; };
+		FFA6C37D1B0E120EA4157E253C78C7DF /* Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Utils.h; path = Sources/yoga/Utils.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		094B35ED5733F98AD622E3C0FA3033EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BEA8B0D3DE661379BE3F2B5951CE43E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A359E1EDCFE820CED92EDFFCE9971A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				137505DE2A18284C3BFED5644132714A /* CoreGraphics.framework in Frameworks */,
+				2C8DB1F94925845E8E98E12D4309A973 /* Foundation.framework in Frameworks */,
+				FAD00967F0881C8D605D272B728747E9 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31F1BD7A640725DE7442A52CCE2AC27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F636AB19E2909554E9612FE100B71F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F627C240964DAA6CF34E795853D34A39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55CFCA0441ADEC2EFAD362AC904A96F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5246D3CB0F6FF3AC9502D9EA5C5D6540 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B8EA4985AE66ECC65D5D39BDCE0321B /* FlexLayout */ = {
+			isa = PBXGroup;
+			children = (
+				032C6AA62F466A95FFD646A833EAFE61 /* FlexLayout.h */,
+				6CBCBBE75B59B6CC2544AE7F058C48F5 /* FlexLayout.swift */,
+				4C4752F7A1361AA0A60853688C72303A /* FlexLayout+Enum.swift */,
+				3C683D3A16A2F12492FD15EB9D6D079F /* FlexLayout+Private.swift */,
+				E9ACA0179ECC07DC42D3B1CA757CC089 /* Percent.swift */,
+				E40D2870F0C5886C53E9F0A8532971C9 /* UIView+FlexLayout.swift */,
+				35ED47A59D959A30830D6CC0348FF11A /* UIView+Yoga.h */,
+				B59CA06EB54527B1F00A9EE6B6A08C59 /* UIView+Yoga.mm */,
+				D1D0A91CDE009A224D75B6ABF3D87316 /* Utils.cpp */,
+				FFA6C37D1B0E120EA4157E253C78C7DF /* Utils.h */,
+				90105345931647BB9DC01D78D76F85E4 /* YGEnums.cpp */,
+				0BE3381DF6FDB0D0A81530BEDC9951E5 /* YGEnums.h */,
+				9A1F153A6F43DC44F652BB5F89D296E1 /* YGLayout.cpp */,
+				44D7D2F99D20F5C47127E997C3BC6A26 /* YGLayout.h */,
+				372FEE12B7BAD0DB70A9D562F86551B4 /* YGLayout.h */,
+				B2BB797EF1EBE4CD94296D7F843E8AFA /* YGLayout.mm */,
+				69E80F714B007324427578BB15A2EBD6 /* YGLayout+Private.h */,
+				A04A4DEA13A13C1B54EEA3A6AE8CEF33 /* YGLayoutExtensions.swift */,
+				516D01DFBC6A223A6B173EE903865042 /* YGMacros.h */,
+				54B2313731B656866AE3F7E7C4989E61 /* YGNode.cpp */,
+				B53359CA26C114C896DA0817CE38CAC6 /* YGNode.h */,
+				F321B41AD0DDDCD9B879072DA06A7260 /* YGNodePrint.cpp */,
+				C9A2453A0719D78E50497DF137733895 /* YGNodePrint.h */,
+				1019E680D9819AC916A9CB99CC882EE9 /* YGStyle.cpp */,
+				F9CF0D29CCE15F85AA66B63E50F8E4A0 /* YGStyle.h */,
+				4C1C3C844B6A09B5CCEE3632B33DE886 /* Yoga.cpp */,
+				1667F75592F4BF83DF41F998F0E60D1A /* Yoga.h */,
+				88B7C1C7AD4686A853244652743D5954 /* Yoga-internal.h */,
+				ABD7884A803B46181FC7DA6E7CF6C61A /* Support Files */,
+			);
+			name = FlexLayout;
+			path = FlexLayout;
+			sourceTree = "<group>";
+		};
+		3A451B5FAD993DA271468F762C67C67B /* Pods-weatherDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C6DD6AFADC5B4CD347AA6DA5B3C06676 /* Pods-weatherDemo.modulemap */,
+				C70DB09B4D313F602DE90399919EEF43 /* Pods-weatherDemo-acknowledgements.markdown */,
+				9A748A2416E32C92070A5E49C5808C6B /* Pods-weatherDemo-acknowledgements.plist */,
+				ED8F6CF8C80EE7404CB7E810A6761AB4 /* Pods-weatherDemo-dummy.m */,
+				B7D2E613BD5433B2C056978633686CC2 /* Pods-weatherDemo-frameworks.sh */,
+				52590A4D4CB510FD4498987E0617F335 /* Pods-weatherDemo-Info.plist */,
+				B698AD69C77CBD5296763D3B0BE80654 /* Pods-weatherDemo-umbrella.h */,
+				D5318FEA7851D0664F406194C6B1D228 /* Pods-weatherDemo.debug.xcconfig */,
+				8333DDB86BF92B450EE4A248D0BBC166 /* Pods-weatherDemo.release.xcconfig */,
+			);
+			name = "Pods-weatherDemo";
+			path = "Target Support Files/Pods-weatherDemo";
+			sourceTree = "<group>";
+		};
+		44941BA85CE73F6B80E15E59648FD721 /* Pods-weatherDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C58BF6627C695926C3DE9BDA8EDF9D59 /* Pods-weatherDemoTests.modulemap */,
+				514143E47EC352B2166B269F56F04050 /* Pods-weatherDemoTests-acknowledgements.markdown */,
+				F01D4F84684582766487C185C1A54CE1 /* Pods-weatherDemoTests-acknowledgements.plist */,
+				9C59566F412D256DC721A532579B3EFA /* Pods-weatherDemoTests-dummy.m */,
+				09625E9DE53CE5C18DF3AC287FDE74E3 /* Pods-weatherDemoTests-Info.plist */,
+				00BEFE42DA7B9D500C8E0A1A24991B22 /* Pods-weatherDemoTests-umbrella.h */,
+				CEC39DBBD1AA6EC0CB9CA802477F12C5 /* Pods-weatherDemoTests.debug.xcconfig */,
+				747653A0D591ABB4989861F087469BE6 /* Pods-weatherDemoTests.release.xcconfig */,
+			);
+			name = "Pods-weatherDemoTests";
+			path = "Target Support Files/Pods-weatherDemoTests";
+			sourceTree = "<group>";
+		};
+		5246D3CB0F6FF3AC9502D9EA5C5D6540 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A0099C32CD052D2679865CAE3EEEEAB2 /* CoreGraphics.framework */,
+				233AEAA73D843C0E91D6A0EF6C3F0E2F /* Foundation.framework */,
+				300D7C9C38226ED88862DA2E4F6D939A /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7345ACD0767E20135A96246CA26C3B53 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE73FD9980526282AC5003EE94FB2EC3 /* PinLayout.modulemap */,
+				6C3FD3EAD0C7FF7D861F0B321FF08BBB /* PinLayout-dummy.m */,
+				474716271610AC757F56C8819945B709 /* PinLayout-Info.plist */,
+				B2DE431C7E7DD4AD72DD1F7A6F013703 /* PinLayout-prefix.pch */,
+				94C0D774179E7C7272B0F4BDFB3282E3 /* PinLayout-umbrella.h */,
+				95F5F418AB066977077FC6DF905D2730 /* PinLayout.debug.xcconfig */,
+				46EEB1BE3C7D702EE0BABD9BC8A51E4E /* PinLayout.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PinLayout";
+			sourceTree = "<group>";
+		};
+		7813A49B6CE73F4348705AF08903701E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C72B5FCB4FAF78A4CFE9E3AAD40B09B8 /* FlexLayout.framework */,
+				49A1B30EADC8BCAF734D81E271752CDD /* PinLayout.framework */,
+				8226D9B71CEA84E5E9A03D40FE5D9C49 /* Pods_weatherDemo.framework */,
+				6487DDE0F679FDBC0CCD6E2E17C5C74C /* Pods_weatherDemoTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90E189192F5B5D83C9634E7E2C87F855 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B8EA4985AE66ECC65D5D39BDCE0321B /* FlexLayout */,
+				B88319373C2AAEF5D269584C71620BE5 /* PinLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		97FF0CD7611CC445BBB665A7D96A5E97 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A451B5FAD993DA271468F762C67C67B /* Pods-weatherDemo */,
+				44941BA85CE73F6B80E15E59648FD721 /* Pods-weatherDemoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		ABD7884A803B46181FC7DA6E7CF6C61A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				25ECE19F77BB264FDF6A0012F8946F86 /* FlexLayout.modulemap */,
+				82B0B0F40DF8E1732E2D04A99426606E /* FlexLayout-dummy.m */,
+				CF24D0B44DC40A99BFDD24D0E8D3055D /* FlexLayout-Info.plist */,
+				9B384B1EBD7749A9C37E13839DDE1157 /* FlexLayout-prefix.pch */,
+				E31206D6C7725B026A07C5ABA43C012C /* FlexLayout-umbrella.h */,
+				F8268B7AC36F73E052CF8DBD21F9DB0B /* FlexLayout.debug.xcconfig */,
+				62D6552CA3635C1EA4CF4BD82608BDC7 /* FlexLayout.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FlexLayout";
+			sourceTree = "<group>";
+		};
+		B88319373C2AAEF5D269584C71620BE5 /* PinLayout */ = {
+			isa = PBXGroup;
+			children = (
+				05256E5826E746A6D3B4C8B3F8F5BF97 /* AutoSizeCalculable.swift */,
+				57A99D61EAD0650991C85FC24F41D238 /* CALayer+PinLayout.swift */,
+				C20B5FD00BD13DE55ACBA92443E9C49A /* Coordinates.swift */,
+				E2C290FED383B34365208B55B22C0336 /* Filters.swift */,
+				F0D6211631DDB5D2BB8CFC78DF46FE3D /* Layoutable.swift */,
+				A787340F77B0F6C032825B646F7DF572 /* Layoutable+PinLayout.swift */,
+				BA380718CE4E30D920E58C06E8D16737 /* NSView+PinLayout.swift */,
+				F19A14A016782DCC8312B56F5216209B /* PEdgeInsets+Operators.swift */,
+				61DF9B7AAC52479826EA4E0D59379CD4 /* Percent.swift */,
+				F72AA6F321747D8620EB2DB32B755567 /* Pin.swift */,
+				0B1D40FCED52473122B5E0D565E5ACC5 /* PinLayout.swift */,
+				03C8D6F10E0762E73D1C8537C1C5E907 /* PinLayout+Between.swift */,
+				9DF55016888BC05C860FAC9C88972A91 /* PinLayout+Coordinates.swift */,
+				26A76EDA965B5CD823FA6A9D836CF075 /* PinLayout+Layouting.swift */,
+				E0D9CFA3FCF385E299BE467FD4256745 /* PinLayout+Relative.swift */,
+				9DE1454C261888853E9C8D85D675A94F /* PinLayout+Size.swift */,
+				3AA3EF426BCB098C56C6A4FCE29BEB96 /* PinLayout+Warning.swift */,
+				8F3466FF34C87FE22067C2016E4865DE /* PinLayout+WrapContent.swift */,
+				EB863EBC007E5ECC466AF35E92A42626 /* PinLayoutObjC.swift */,
+				30389B432F2060EBB06F4C336EE505D4 /* PinLayoutObjCImpl.swift */,
+				2CE92B5B5ED4CCE160B42E244EF70340 /* PinSafeArea.swift */,
+				7D901662DB4E25D488F8DD6CB644B18C /* SizeCalculable.swift */,
+				7F590EAB532BDE281D38356C9598B8C8 /* Types.swift */,
+				C47A3A43EA2D1EE28E7DC44E34266565 /* Types+Description.swift */,
+				0B255029D3DBE0E05D58D6D6184E69C0 /* TypesImpl.swift */,
+				2F78216DC37A8FE769612A7ED8E23F6F /* UIView+PinLayout.swift */,
+				7345ACD0767E20135A96246CA26C3B53 /* Support Files */,
+			);
+			name = PinLayout;
+			path = PinLayout;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				90E189192F5B5D83C9634E7E2C87F855 /* Pods */,
+				7813A49B6CE73F4348705AF08903701E /* Products */,
+				97FF0CD7611CC445BBB665A7D96A5E97 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		20C8F4E71F7697EA6FD5F2303EF8B533 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F64E8204440A21E673A644E6253D0C /* PinLayout-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F5C3CDF15F8B45000D8F14D48E09CE5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41BF40BC26C76E2C807900A1C25D70FF /* FlexLayout-umbrella.h in Headers */,
+				462A9A6D0831A96B730AFF0B6A895C9D /* FlexLayout.h in Headers */,
+				8432EDEEEB5E2824EFB1CAED6C4F43B7 /* UIView+Yoga.h in Headers */,
+				E10DE013A0C3F8E694949D4EBA549957 /* Utils.h in Headers */,
+				CDE42E7D5C642AFFFC465BEEB42B643C /* YGEnums.h in Headers */,
+				682DCFD73C751973E73C47FE3A4C0B0E /* YGLayout+Private.h in Headers */,
+				A814E981192DACC9758D3EBC12E75EA2 /* YGLayout.h in Headers */,
+				259E775B86F235AB5658DD0ED0C3026A /* YGLayout.h in Headers */,
+				137120FEA8AA87DB8AC1C4936C1B419D /* YGMacros.h in Headers */,
+				D6D9FD4EC0D5EB5491E3C2983C808998 /* YGNode.h in Headers */,
+				51AE7F4F2FCBF80F5457754F81844C6F /* YGNodePrint.h in Headers */,
+				0582FCD9080537DF96FB4B34E778E8D3 /* YGStyle.h in Headers */,
+				FD12E01F8C10F481C829F3254AC66A42 /* Yoga-internal.h in Headers */,
+				792AED9CED00D006A0D9908080AB2F3A /* Yoga.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C360391ADB01911DF89821192F18A1B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60137AE5DEC766FFE27647A2A440E968 /* Pods-weatherDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC253E0AC221ABFA2944781B9F09A8FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587E4DCD82DB1B1B09C873A093B41B57 /* Pods-weatherDemoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4F78D278FB739517AE6B08F96AB75280 /* PinLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFAFB45B76FDEDDA5DBC045DC7014773 /* Build configuration list for PBXNativeTarget "PinLayout" */;
+			buildPhases = (
+				20C8F4E71F7697EA6FD5F2303EF8B533 /* Headers */,
+				FA3213536E10A125379E9B8621FB9DE2 /* Sources */,
+				87A359E1EDCFE820CED92EDFFCE9971A /* Frameworks */,
+				199C613343EC2EE86227A06D25FAD755 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PinLayout;
+			productName = PinLayout;
+			productReference = 49A1B30EADC8BCAF734D81E271752CDD /* PinLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9AA61770EFE1F2214AC05B9826901915 /* Pods-weatherDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41A96A360A5BD43A5D7D144E88A7CE8C /* Build configuration list for PBXNativeTarget "Pods-weatherDemo" */;
+			buildPhases = (
+				C360391ADB01911DF89821192F18A1B7 /* Headers */,
+				F6A9C0ED51AB3CD7A61862922C99A5C5 /* Sources */,
+				F627C240964DAA6CF34E795853D34A39 /* Frameworks */,
+				A77C5ABC894DE944AC26E5E706B5B343 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				741D49E1566258771FFAA8D9E59D87DD /* PBXTargetDependency */,
+				BD215FC61A1A076A756BFEBF1ACEF13A /* PBXTargetDependency */,
+			);
+			name = "Pods-weatherDemo";
+			productName = "Pods-weatherDemo";
+			productReference = 8226D9B71CEA84E5E9A03D40FE5D9C49 /* Pods_weatherDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B669057662AC2963D287EC448129F48 /* FlexLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 380AC7FD038F256696BF7BE8559A53DD /* Build configuration list for PBXNativeTarget "FlexLayout" */;
+			buildPhases = (
+				4F5C3CDF15F8B45000D8F14D48E09CE5 /* Headers */,
+				00221B9E2A4AF780A47F2830D2DD5F3A /* Sources */,
+				094B35ED5733F98AD622E3C0FA3033EC /* Frameworks */,
+				48E21983C63AFB0969F03AB1BD591FF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlexLayout;
+			productName = FlexLayout;
+			productReference = C72B5FCB4FAF78A4CFE9E3AAD40B09B8 /* FlexLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E45F665401DCB9F403FB00A1F2AABF14 /* Pods-weatherDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56AC603BEDADC54F2C356E5A60F7EC7F /* Build configuration list for PBXNativeTarget "Pods-weatherDemoTests" */;
+			buildPhases = (
+				CC253E0AC221ABFA2944781B9F09A8FE /* Headers */,
+				A02B8ED68821AB09891701CAD4A01950 /* Sources */,
+				E31F1BD7A640725DE7442A52CCE2AC27 /* Frameworks */,
+				AEA99031D80CCA86BE71119FAE28B7F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB7115F1A7B73C123427C646534D3BDA /* PBXTargetDependency */,
+			);
+			name = "Pods-weatherDemoTests";
+			productName = "Pods-weatherDemoTests";
+			productReference = 6487DDE0F679FDBC0CCD6E2E17C5C74C /* Pods_weatherDemoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7813A49B6CE73F4348705AF08903701E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B669057662AC2963D287EC448129F48 /* FlexLayout */,
+				4F78D278FB739517AE6B08F96AB75280 /* PinLayout */,
+				9AA61770EFE1F2214AC05B9826901915 /* Pods-weatherDemo */,
+				E45F665401DCB9F403FB00A1F2AABF14 /* Pods-weatherDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		199C613343EC2EE86227A06D25FAD755 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48E21983C63AFB0969F03AB1BD591FF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A77C5ABC894DE944AC26E5E706B5B343 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA99031D80CCA86BE71119FAE28B7F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00221B9E2A4AF780A47F2830D2DD5F3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25B3E6E33BB9C630944F98376D1F8A95 /* FlexLayout+Enum.swift in Sources */,
+				5763BDACF6E1CCFB03077FBDD3CCF1D8 /* FlexLayout+Private.swift in Sources */,
+				17C3C640A143487C78BA74F0ED89DC15 /* FlexLayout-dummy.m in Sources */,
+				BC048396A87D154BD42D2BC349B64967 /* FlexLayout.swift in Sources */,
+				943DC2D71DBC3C3F7A4DFC81C580EB3F /* Percent.swift in Sources */,
+				E4E9180E2601F43CCF1BAD0A385DC7ED /* UIView+FlexLayout.swift in Sources */,
+				335B4F0601EF3117138C2B76D5F0A60A /* UIView+Yoga.mm in Sources */,
+				2DBCD2DA628D650C3573E51C0C0E2A24 /* Utils.cpp in Sources */,
+				FBE710076D8843D7CD63CE6526899FEE /* YGEnums.cpp in Sources */,
+				1B75AF9E3F8AD4D76E2DE5403A08714E /* YGLayout.cpp in Sources */,
+				B0F97DE7AB3B6638A0B1328A7D5E9FFC /* YGLayout.mm in Sources */,
+				8905A126D79F97AEEB5AB24C73E77282 /* YGLayoutExtensions.swift in Sources */,
+				E18F006BDE41BC893BAEDDD086B75B43 /* YGNode.cpp in Sources */,
+				79585F133D5559AA07ACC86738462BF7 /* YGNodePrint.cpp in Sources */,
+				F2C73BB13803630053D1E2C8947483B1 /* YGStyle.cpp in Sources */,
+				2C4A421CCD2AED344F88F63CE00645F5 /* Yoga.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02B8ED68821AB09891701CAD4A01950 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F03BF6862A1D9727FE380A8E1AB0875D /* Pods-weatherDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A9C0ED51AB3CD7A61862922C99A5C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562A344B8855A53D6E6820F3F4CB68F7 /* Pods-weatherDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3213536E10A125379E9B8621FB9DE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63057E85A75C5BA21C86CCD16160FB2 /* AutoSizeCalculable.swift in Sources */,
+				16841168CB75562C411DC3D110D4FE21 /* CALayer+PinLayout.swift in Sources */,
+				FDF1A10DC381B825C02AD22BDB2D6569 /* Coordinates.swift in Sources */,
+				72886220A0321430081AE992748F86FC /* Filters.swift in Sources */,
+				1EABAAC7A61E5039AAC6EF4AF67D5BCE /* Layoutable+PinLayout.swift in Sources */,
+				D41B7201F0569DC979F3A30E4F78BDD0 /* Layoutable.swift in Sources */,
+				D2C9DC6D43AD8BACD6890D06BD98BE8C /* NSView+PinLayout.swift in Sources */,
+				3F959D0900C98CC943DCB61EAB685B93 /* PEdgeInsets+Operators.swift in Sources */,
+				4A204EC268ABB45AFCF34DE853845997 /* Percent.swift in Sources */,
+				17D13DB592AA81E2D55C270A31827C0D /* Pin.swift in Sources */,
+				9A4CB88F6F460FA861A78C0556B88D8E /* PinLayout+Between.swift in Sources */,
+				E83245BC3B3E167213C2BBDA0D733B46 /* PinLayout+Coordinates.swift in Sources */,
+				BE920B67064EA605736A882586DC8D2F /* PinLayout+Layouting.swift in Sources */,
+				F7DEF0487E07BC5CB98B189A82E216B7 /* PinLayout+Relative.swift in Sources */,
+				B0CA9DEABE72547BA8527D7BA73F3282 /* PinLayout+Size.swift in Sources */,
+				F14B0789C50C97298E188335E224AE13 /* PinLayout+Warning.swift in Sources */,
+				7A274E788413B944DA0FB6973B012EC9 /* PinLayout+WrapContent.swift in Sources */,
+				6B35801274F6BF50775AF81DEF161D34 /* PinLayout-dummy.m in Sources */,
+				3FE38BD5F3164A1B919B7C52A19A8FFC /* PinLayout.swift in Sources */,
+				1B3B3AAC4BD651AD69629F11EA1BF9D5 /* PinLayoutObjC.swift in Sources */,
+				67D91A1F1A9AF5310FC23E1446467A1E /* PinLayoutObjCImpl.swift in Sources */,
+				3F7E69A590D34EAD0350E2A57D113F01 /* PinSafeArea.swift in Sources */,
+				97E0355E653247E57D75EF25043DC07C /* SizeCalculable.swift in Sources */,
+				79A08F2672531E50599E526F535BBCB3 /* Types+Description.swift in Sources */,
+				6DC4B70BB3587DB7F300994143EA1309 /* Types.swift in Sources */,
+				0889A8ED49A4DFB2239AA13DCBEA6A36 /* TypesImpl.swift in Sources */,
+				2B8585D8550BEDFAB402A1FACFCD1EC4 /* UIView+PinLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		741D49E1566258771FFAA8D9E59D87DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlexLayout;
+			target = 9B669057662AC2963D287EC448129F48 /* FlexLayout */;
+			targetProxy = E1D02BDD21B58FA064163F44F26217CB /* PBXContainerItemProxy */;
+		};
+		BD215FC61A1A076A756BFEBF1ACEF13A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PinLayout;
+			target = 4F78D278FB739517AE6B08F96AB75280 /* PinLayout */;
+			targetProxy = 0FDBE6DDB0CA8AB89A8DE57DF29062D3 /* PBXContainerItemProxy */;
+		};
+		DB7115F1A7B73C123427C646534D3BDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-weatherDemo";
+			target = 9AA61770EFE1F2214AC05B9826901915 /* Pods-weatherDemo */;
+			targetProxy = BE70C14FA8F0B5E54D2C4C0DB2DA7EB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5ABAD9F144CE47625888312A2639F1E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62D6552CA3635C1EA4CF4BD82608BDC7 /* FlexLayout.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FlexLayout/FlexLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlexLayout/FlexLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FlexLayout/FlexLayout.modulemap";
+				PRODUCT_MODULE_NAME = FlexLayout;
+				PRODUCT_NAME = FlexLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5FD0D8A75052ABF1F3261E95E3731C49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5318FEA7851D0664F406194C6B1D228 /* Pods-weatherDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-weatherDemo/Pods-weatherDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-weatherDemo/Pods-weatherDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7428B7C5CB401507EB8D1B1837FF52E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 747653A0D591ABB4989861F087469BE6 /* Pods-weatherDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-weatherDemoTests/Pods-weatherDemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-weatherDemoTests/Pods-weatherDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		81129365E3734B66B4DAF9B9D37AC6C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8268B7AC36F73E052CF8DBD21F9DB0B /* FlexLayout.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FlexLayout/FlexLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlexLayout/FlexLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FlexLayout/FlexLayout.modulemap";
+				PRODUCT_MODULE_NAME = FlexLayout;
+				PRODUCT_NAME = FlexLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A3191CFB5396BCDFDD02EC9E9E64E179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46EEB1BE3C7D702EE0BABD9BC8A51E4E /* PinLayout.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PinLayout/PinLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PinLayout/PinLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PinLayout/PinLayout.modulemap";
+				PRODUCT_MODULE_NAME = PinLayout;
+				PRODUCT_NAME = PinLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ABBF97E0C3CAED3CCE6C3F13175B0E07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95F5F418AB066977077FC6DF905D2730 /* PinLayout.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PinLayout/PinLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PinLayout/PinLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PinLayout/PinLayout.modulemap";
+				PRODUCT_MODULE_NAME = PinLayout;
+				PRODUCT_NAME = PinLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E802133DBB2292A90A574639C49D739A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEC39DBBD1AA6EC0CB9CA802477F12C5 /* Pods-weatherDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-weatherDemoTests/Pods-weatherDemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-weatherDemoTests/Pods-weatherDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F480C2AF4ABFA5BCD14898CC4904D976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8333DDB86BF92B450EE4A248D0BBC166 /* Pods-weatherDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-weatherDemo/Pods-weatherDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-weatherDemo/Pods-weatherDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		380AC7FD038F256696BF7BE8559A53DD /* Build configuration list for PBXNativeTarget "FlexLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81129365E3734B66B4DAF9B9D37AC6C4 /* Debug */,
+				5ABAD9F144CE47625888312A2639F1E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41A96A360A5BD43A5D7D144E88A7CE8C /* Build configuration list for PBXNativeTarget "Pods-weatherDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FD0D8A75052ABF1F3261E95E3731C49 /* Debug */,
+				F480C2AF4ABFA5BCD14898CC4904D976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56AC603BEDADC54F2C356E5A60F7EC7F /* Build configuration list for PBXNativeTarget "Pods-weatherDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E802133DBB2292A90A574639C49D739A /* Debug */,
+				7428B7C5CB401507EB8D1B1837FF52E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFAFB45B76FDEDDA5DBC045DC7014773 /* Build configuration list for PBXNativeTarget "PinLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABBF97E0C3CAED3CCE6C3F13175B0E07 /* Debug */,
+				A3191CFB5396BCDFDD02EC9E9E64E179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
